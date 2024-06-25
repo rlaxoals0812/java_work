@@ -23,8 +23,8 @@
 		
 		<ul class="nav flex-column">
 			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath }/test.jsp">Connection 객체 얻어오기 테스트</a></li>
-			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath }/member/list.jsp">회원목록 보기</a></li>
-			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath }/friend/list.jsp">친구목록 보기</a></li>
+			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath }/member/list.jsp">회원목록</a></li>
+			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath }/friend/list.jsp">친구목록</a></li>
 			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath }/guest/list.jsp">방명록</a></li>
 		</ul>
 		 <div id="carouselExampleCaptions" class="carousel slide">
@@ -37,22 +37,22 @@
 		    <div class="carousel-item active">
 		      <img src="images/top01.jpg" class="d-block w-100" alt="1">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h5>First slide label</h5>
-		        <p>Some representative placeholder content for the first slide.</p>
+		        <h5><strong>For You</strong></h5>
+		        <p>this content contains AD.</p>
 		      </div>
 		    </div>
 		    <div class="carousel-item">
 		      <img src="images/top02.jpg" class="d-block w-100" alt="2">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h5>Second slide label</h5>
-		        <p>Some representative placeholder content for the second slide.</p>
+		        <h5><strong>For You</strong></h5>
+		        <p>this content contains AD.</p>
 		      </div>
 		    </div>
 		    <div class="carousel-item">
 		      <img src="images/top03.jpg" class="d-block w-100" alt="3">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h5>Third slide label</h5>
-		        <p>Some representative placeholder content for the third slide.</p>
+		        <h5><strong>For You</strong></h5>
+		        <p>this content contains AD.</p>
 		      </div>
 		    </div>
 		  </div>
